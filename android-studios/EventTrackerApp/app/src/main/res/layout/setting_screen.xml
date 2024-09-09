@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Existing settings elements -->
+
+
+    <Switch
+        android:id="@+id/pushNotificationsSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Push Notifications" />
+
+    <!-- New Button to navigate to SMS Notification screen -->
+    <Button
+        android:id="@+id/smsNotificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMS Notifications"
+        android:layout_marginTop="16dp" />
+
+    <!-- Cancel Button -->
+    <Button
+        android:id="@+id/cancelSettingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
